@@ -1,0 +1,45 @@
+Program.cs lijn 2: ToonTitle -> ToonTitel
+
+Program.cs lijn 118: FilterProcessoren -> FilterMoederborden
+
+Program.cs lijn 4: Aankoop aankoop = null -> Aankoop aankoop = new Aankoop()
+
+program.cs lijn 37: while -> if
+program.cs lijn 48: while -> if
+
+program.cs lijn 55: weg
+
+program.cs lijn 4: globilizaztion toegevoegd voor consitentie
+
+Program.cs:220 - for loop logica fout,out of range exception
+
+Accessoire.cs lijn 53: bool heeftRgbVerlichting, double prijs -> omgedraaid (+ alle constructors aanpassen, in Muis, Toetsenbord,)
+
+Accesoire.cs:40 - logica fout = value > 0. Prijs wordt dan altijd op 0 gezet
+
+Geheugen.cs lijn 23: _moduleGrootte = Modulegrote -> _moduleGrootte = value
+
+GrafischeKaart.cs lijn 23: value = _werkgeheugen -> omdraaien
+
+GrafischeKaart.cs:23 - logische setter _werkgeheugen = value
+
+FileOperations.cs lijn 154: weg
+FileOperations.cs lijn 138: weg
+
+Aankoop.cs lijn 102: Software = new List<Software>(); toegevoegd
+
+Aankoop.cs lijn 60 & 61 -> = naar +=
+
+Aankoop.cs:31 - constructor vergeet Software zijn waarde te assignen aan software
+
+Muis.cs:27 - Constructor parameter foute volgorde "merk, model"	
+
+Onderdeel.cs:15 - getter heft foute return waarde
+
+PC.cs:46 - geen else in de if statement.
+
+Processor.cs:53 - Logische fout in constructor, private properties worden gelijk steld aan de startwaardes ipv de public properties.
+
+Software.cs:29 - waarde toekennen omgedraaid: parameter "naam" wordt gelijkgesteld aan "Naam"
+
+Toetsenbord.cs:27 - startwaardes constructor foute volgorde, ".., prijs, heeftRgbverlichting"
